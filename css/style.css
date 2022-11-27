@@ -299,14 +299,14 @@ a {
 
 /* CONTACT STYLE STARTED */
 
-.contact__section{
-  background-color: #F67E7E;
+.contact__section {
+  background-color: #f67e7e;
   background-image: url(/images/contact-bg.png);
   background-repeat: no-repeat;
   background-position: calc(50% - 660px) calc(50% + 80px);
 }
 
-.contact__section-wrapper{
+.contact__section-wrapper {
   display: flex;
   justify-content: space-between;
   width: 917px;
@@ -325,8 +325,8 @@ a {
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
-  color: #012F34;
-  border: 2px solid #012F34;
+  color: #012f34;
+  border: 2px solid #012f34;
   border-radius: 24px;
   padding: 10px 32.5px;
 }
@@ -336,4 +336,74 @@ a {
 /* MAIN STYLE FINISHED */
 
 /* FOOTER STYLE STARTED */
+
+.site__footer {
+  padding: 48px 0;
+  background-color: #002529;
+}
+
+.footer__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section-start {
+  display: flex;
+}
+
+.footer__section-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 125px;
+}
+
+.footer__section-logo {
+  margin-bottom: 25px;
+}
+
+.footer__section-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.footer__section-link {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer__address-item {
+  font-size: 15px;
+  line-height: 25px;
+  font-style: normal;
+  color: #ffffff;
+  opacity: 60%;
+}
+
+.footer__section-end{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer__icon-box {
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  margin-bottom: 51px;
+}
+
+.footer__icon-box i {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.footer__end-title {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 60%;
+}
+
 /* FOOTER STYLE FINISHED */
