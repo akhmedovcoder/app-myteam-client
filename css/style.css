@@ -89,8 +89,9 @@ a {
   background-color: #014e56;
   background-image: url(/images/hero-left-disk.png),
     url(/images/hero-bottom-disk.png);
-    background-repeat: no-repeat;
-    background-position: calc(50% - 770px) calc(50% - 100px), calc(50% + 380px) calc(50% + 260px);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 770px) calc(50% - 100px),
+    calc(50% + 380px) calc(50% + 260px);
 }
 
 .hero__section-wrapper {
@@ -131,6 +132,90 @@ a {
 /* HERO STYLE FINISHED */
 
 /* INFO STYLE STARTED */
+
+.info__section {
+  background-color: #012F34;
+  background-image: url(/images/info-bg-desk.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 760px) calc(50% + 218px);
+}
+
+.info__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 0;
+}
+
+.info__section-title::before {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #f67e7e;
+  margin-bottom: 54px;
+}
+
+.info__section-title {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.info__section-list{
+  margin-top: 54px;
+}
+
+.info__section-item:nth-child(1):before{
+  position: absolute;
+  content: url(/images/user-icon.svg);
+  width: 72px;
+  height: 72px;
+  margin-left: -95px;
+}
+
+.info__section-item:nth-child(2):before{
+  position: absolute;
+  content: url(/images/setting-icon.svg);
+  width: 72px;
+  height: 72px;
+  margin-left: -95px;
+}
+
+.info__section-item:nth-child(3):before{
+  position: absolute;
+  content: url(/images/stat-icon.svg);
+  width: 72px;
+  height: 72px;
+  margin-left: -95px;
+}
+
+.info__section-item{  
+  margin-bottom: 32px;
+}
+
+.info__section-item:nth-child(3){
+  margin-bottom: 0;
+}
+
+.info__item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #f67e7e;
+}
+
+.info__item-desc {
+  width: 445px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
 /* INFO STYLE FINISHED */
 
 /* REVIEW STYLE STARTED */
