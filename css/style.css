@@ -1,5 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  width: 100%;
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* HEADER STYLE STARTED */
+
+.site__header {
+  padding: 70px 0;
+  background-color: #014e56;
+}
+
+.header__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__section-start {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}
+
+.header__logo-img {
+  width: 160px;
+  height: 40px;
+}
+
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.header__nav-link {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.header__section-btn {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  padding: 10px 32.5px;
+}
+
 /* HEADER STYLE FINISHED */
 
 /* MAIN STYLE STARTED */
