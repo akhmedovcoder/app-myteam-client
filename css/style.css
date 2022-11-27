@@ -37,7 +37,7 @@ a {
 /* HEADER STYLE STARTED */
 
 .site__header {
-  padding: 70px 0;
+  padding: 79px 0;
   background-color: #014e56;
 }
 
@@ -74,7 +74,7 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: #ffffff;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   border-radius: 24px;
   padding: 10px 32.5px;
 }
@@ -84,6 +84,50 @@ a {
 /* MAIN STYLE STARTED */
 
 /* HERO STYLE STARTED */
+
+.hero__section {
+  background-color: #014e56;
+  background-image: url(/images/hero-left-disk.png),
+    url(/images/hero-bottom-disk.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 770px) calc(50% - 100px), calc(50% + 380px) calc(50% + 260px);
+}
+
+.hero__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+  padding-bottom: 255px;
+}
+
+.hero__section-title {
+  width: 600px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #ffffff;
+}
+.hero__title-span {
+  color: #f67e7e;
+}
+
+.hero__section-desc::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+  margin-bottom: 79px;
+}
+
+.hero__section-desc {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
 /* HERO STYLE FINISHED */
 
 /* INFO STYLE STARTED */
