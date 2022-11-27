@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -134,7 +134,7 @@ a {
 /* INFO STYLE STARTED */
 
 .info__section {
-  background-color: #012F34;
+  background-color: #012f34;
   background-image: url(/images/info-bg-desk.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 760px) calc(50% + 218px);
@@ -165,11 +165,11 @@ a {
   color: #ffffff;
 }
 
-.info__section-list{
+.info__section-list {
   margin-top: 54px;
 }
 
-.info__section-item:nth-child(1):before{
+.info__section-item:nth-child(1):before {
   position: absolute;
   content: url(/images/user-icon.svg);
   width: 72px;
@@ -177,7 +177,7 @@ a {
   margin-left: -95px;
 }
 
-.info__section-item:nth-child(2):before{
+.info__section-item:nth-child(2):before {
   position: absolute;
   content: url(/images/setting-icon.svg);
   width: 72px;
@@ -185,7 +185,7 @@ a {
   margin-left: -95px;
 }
 
-.info__section-item:nth-child(3):before{
+.info__section-item:nth-child(3):before {
   position: absolute;
   content: url(/images/stat-icon.svg);
   width: 72px;
@@ -193,11 +193,11 @@ a {
   margin-left: -95px;
 }
 
-.info__section-item{  
+.info__section-item {
   margin-bottom: 32px;
 }
 
-.info__section-item:nth-child(3){
+.info__section-item:nth-child(3) {
   margin-bottom: 0;
 }
 
@@ -219,6 +219,82 @@ a {
 /* INFO STYLE FINISHED */
 
 /* REVIEW STYLE STARTED */
+
+.review__section {
+  background-color: #004047;
+  background-image: url(/images/review-right-bg.png),
+    url(/images/review-bottom-bg.png);
+  background-position: calc(50% - 688px) calc(50% - 322px),
+    calc(50% + 660px) calc(50% + 370px);
+  background-repeat: no-repeat;
+}
+
+.review__section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 140px 0 150px 0;
+}
+
+.review__section-title {
+  width: 932px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.review__title-span {
+  color: #79c8c7;
+}
+
+.review__section-list {
+  display: flex;
+}
+
+.review__section-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/quote.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 34px;
+}
+
+.review__item-desc {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.review__item-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #79c8c7;
+  margin-bottom: 2px;
+}
+
+.review__item-profession {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+  font-style: italic;
+  margin-bottom: 32px;
+}
+
+.review__item-avatar {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+
 /* REVIEW STYLE FINISHED */
 
 /* CONTACT STYLE STARTED */
