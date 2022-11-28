@@ -70,6 +70,10 @@ a {
   color: #ffffff;
 }
 
+.header__nav-link:active{
+  color: #F67E7E;
+}
+
 .header__section-btn {
   font-size: 18px;
   line-height: 28px;
@@ -77,6 +81,11 @@ a {
   border: 2px solid #ffffff;
   border-radius: 24px;
   padding: 10px 32.5px;
+}
+
+.header__section-btn:active{
+  color: #002529;
+  background-color: #FFFFFF;
 }
 
 /* HEADER STYLE FINISHED */
@@ -331,6 +340,11 @@ a {
   padding: 10px 32.5px;
 }
 
+.contact__section-btn:active{
+  color: #FFFFFF;
+  background-color: #012F34;
+}
+
 /* CONTACT STYLE FINISHED */
 
 /* MAIN STYLE FINISHED */
@@ -373,6 +387,10 @@ a {
   color: #ffffff;
 }
 
+.footer__section-link:active{
+  color: #F67E7E;
+}
+
 .footer__address-item {
   font-size: 15px;
   line-height: 25px;
@@ -397,6 +415,10 @@ a {
 .footer__icon-box i {
   font-size: 28px;
   color: #ffffff;
+}
+
+.footer__icon-box i:active{
+  color: #F67E7E;
 }
 
 .footer__end-title {
